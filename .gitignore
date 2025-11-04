@@ -1,0 +1,13 @@
+# Executables
+*.exe
+
+# Temp files from code runner (if this is the file name)
+tempCodeRunnerFile.cpp
+
+# Other common build and temp files to ignore
+# To ignore all object files:
+*.o
+
+# To ignore all compiled libraries:
+*.dll
+*.so
