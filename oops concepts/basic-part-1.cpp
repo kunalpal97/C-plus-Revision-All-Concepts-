@@ -27,8 +27,8 @@ int main(){
     Students s; // this is how an object is created 
     //object is an instance of class 
     // object can be a real world entity like person , car , pen , chasma
-    s.name = "Kunal Pal";
-    s.roll_no = 55;
+    s.name = "Amitab Bacchan";
+    s.roll_no = 83;
 
     cout << s.name << endl;
     cout << s.roll_no << endl;

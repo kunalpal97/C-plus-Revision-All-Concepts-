@@ -12,7 +12,6 @@ class Shape{
     public:
 
     Shape(int s , string sName){
-
         sides = s;
         shape_name = sName;
 
