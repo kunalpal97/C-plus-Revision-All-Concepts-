@@ -1,7 +1,5 @@
 # Executables
 *.exe
-*.out
-*.app
 
 # Temp files from code runner (if this is the file name)
 tempCodeRunnerFile.cpp

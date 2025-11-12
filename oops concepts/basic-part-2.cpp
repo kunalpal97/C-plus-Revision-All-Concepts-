@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// By default the access specifier is private in c++ , we have Public , Private , Protected 
+
 
 class Shape{
     
