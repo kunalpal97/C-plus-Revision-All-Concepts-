@@ -2,6 +2,8 @@
 
 using namespace std;
 
+/* Copy constructor is used to copy the values of object one into another object  */
+
 class Customers{
 
     public:
@@ -23,10 +25,17 @@ class Customers{
 
     void print(){
 
-        cout << "**Detail of the customer**" << endl;
+        cout << endl << "**Detail of the customer**" << endl;
         cout << name  << endl << account_no << endl << balance << endl;
 
     }
+
+    Customers(Customers &B){
+        name = B.name;
+        account_no = B.account_no;
+        balance = B.balance;
+    }
+    // above is copy constructor 
 };
 
 int main(){
@@ -35,6 +44,9 @@ int main(){
     c1.print();
     Customers c2(c1);
     c2.print();
+    Customers c3;
+    c3 = c1;
+    c3.print();
 
 
 
